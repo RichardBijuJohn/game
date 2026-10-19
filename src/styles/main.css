@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=DM+Mono:wght@400;500&display=swap');
+
+:root { color-scheme: dark; font-family: 'Barlow Condensed', sans-serif; }
+* { box-sizing: border-box; }
+html, body, #game-shell, #game { width: 100%; height: 100%; margin: 0; overflow: hidden; }
+body { background: #090c12; }
+canvas { display: block; }
+.vignette { position: fixed; inset: 0; pointer-events: none; background: radial-gradient(ellipse at center, transparent 42%, rgba(3,5,9,.65) 100%); }
